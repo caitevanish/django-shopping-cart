@@ -7,6 +7,9 @@ from django.http import HttpResponse
 
 
 def say_hello(request):
+  x = 1
+  y = 2
+
   #Ex.1
   # return HttpResponse('Hello World')    # -> Map to a URL
   
@@ -17,4 +20,4 @@ def say_hello(request):
     #<h1>Hello {{ name }}</h1>
 
   #ex.3
-  
+
